@@ -1,4 +1,58 @@
+body {
+    background-image: url(/assets/images/austin-skyline.jpg);
+}
+
+/* NAV BAR STYLING */
+
+
+/* MAIN NAVBAR CLASS  */
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 ul {
     text-align: center;
     margin: auto;
+
 }
+
+#siglas {
+    height: 8%;
+    width: 8%;
+}
+
+.bg-light {
+    background-color: #333333b5 !important;
+}
+
+a.nav-link {
+    color: #28a745;
+}
+
+.navbar-light .navbar-brand {
+    color: #28a745;
+    padding-left: 3%;
+    font-size: 1.75rem;
+}
+
+/* HOME LINK */
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #28a745;
+}
+
+/* OTHER PAGE LINKS */
+.navbar-light .navbar-nav .nav-link {
+    color: #28a745;
+}
+
+.form-control {
+    text-align: center;
+    height: calc(1em + .75rem + 2px);
+}
+
+/* #28a745 */
