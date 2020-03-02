@@ -1,5 +1,7 @@
 body {
     background-image: url(/assets/images/austin-skyline.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* NAV BAR STYLING */
