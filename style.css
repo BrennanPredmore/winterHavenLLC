@@ -57,4 +57,18 @@ a.nav-link {
     height: calc(1em + .75rem + 2px);
 }
 
+footer {
+    background-color: #666666;
+    text-align: center;
+    padding-bottom: -20px;
+    margin-top: 20px;
+    height: 35px;
+    color: #f2f2f2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #28a745;
+    position: fixed;
+}
+
 /* #28a745 */
