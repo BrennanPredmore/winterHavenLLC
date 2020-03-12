@@ -30,11 +30,11 @@ ul {
 }
 
 a.nav-link {
-    color: #28a745;
+    color: #ffdc85;
 }
 
 .navbar-light .navbar-brand {
-    color: #28a745;
+    color: #ffdc85;
     padding-left: 3%;
     font-size: 1.75rem;
 }
@@ -44,12 +44,12 @@ a.nav-link {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-    color: #28a745;
+    color: #ffdc85;
 }
 
 /* OTHER PAGE LINKS */
 .navbar-light .navbar-nav .nav-link {
-    color: #28a745;
+    color: #ffdc85;
 }
 
 .form-control {
@@ -57,12 +57,21 @@ a.nav-link {
     height: calc(1em + .75rem + 2px);
 }
 
+.btn-outline-success {
+    color: #ffdc85;
+    border-color: #005082;
+}
+
 .container {
     margin-top: 2%;
     text-align: center;
     background-color: #333333b5;
     margin-bottom: 5%;
+    /* color: #f2f2f2; */
+}
 
+h2 {
+    text-align: center;
 }
 
 
@@ -71,7 +80,7 @@ a.nav-link {
 .card {
     margin: auto;
     text-align: center;
-    border: 5px ridge red;
+    border: 10px ridge #005082;
     background-color: #f2f2f2;
     margin-bottom: 2%;
 }
@@ -90,8 +99,11 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    border-top: 5px solid #28a745;
+    border-top: 5px solid #ffdc85;
     position: fixed;
 }
 
-/* #28a745 */
+/* COLOR SCHEME
+Yellow: #ffdc85
+Blue #005082
+Salmon #e19285 */
