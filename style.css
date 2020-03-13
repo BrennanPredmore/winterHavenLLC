@@ -26,7 +26,7 @@ ul {
 }
 
 .bg-light {
-    background-color: #333333b5 !important;
+    background-color: #005082b5 !important;
 }
 
 a.nav-link {
@@ -65,13 +65,30 @@ a.nav-link {
 .container {
     margin-top: 2%;
     text-align: center;
-    background-color: #333333b5;
+    background-color: #005082b5;
     margin-bottom: 5%;
+    padding: 1%;
+    border: 10px ridge #ffdc85;
     /* color: #f2f2f2; */
+}
+
+.container p {
+    font-weight: bold;
+    color: #f2f2f2;
+    font-size: 115%;
 }
 
 h2 {
     text-align: center;
+    color: #ffdc85;
+    margin-top: 1%;
+    padding: 1%;
+    
+}
+
+h3 {
+    color: #ffdc85;
+    
 }
 
 
