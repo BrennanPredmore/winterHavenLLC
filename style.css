@@ -91,6 +91,9 @@ h3 {
     
 }
 
+h5 {
+    color: #e19285;
+}
 
 /* ABOUT US CARDS */
 
@@ -105,6 +108,9 @@ h3 {
 h1 {
     color: #ffdc85;
 }
+
+/* IMAGES */
+
 
 footer {
     background-color: #666666;
