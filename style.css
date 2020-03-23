@@ -4,6 +4,16 @@ body {
 }
 
 /* INDEX MAIN DIVS & BACKGROUND */
+
+.container {
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: #f7f7f7;
+    /* color: #f2f2f2; */
+}
+
 #ourMission {
     background-color: #f7f7f7;
     border: 10px ridge #ffdc85;
@@ -40,7 +50,39 @@ body {
     box-sizing: none;
 }
 
+/* LIFESTYLE DIV */
+#lifeCycleHeader {
+    text-align: center;
+}
 
+#lifeCycleSubHeader {
+    text-align: center;
+    color: #666666;
+}
+
+#lifeCycleP {
+    text-align: center;
+    font-weight: bold;
+}
+
+#lifeCycleChallenge {
+    float: left;
+}
+
+#lifeCycleSolution {
+    float: right;
+}
+
+/* LIVE MARKET DIV */
+#liveMarket {
+    background-color: #005082b5;
+    color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: 10px ridge #333;
+    width: 100%;
+}
 
 /* NAV BAR STYLING */
 /* MAIN NAVBAR CLASS  */
@@ -86,6 +128,11 @@ a.nav-link {
 /* OTHER PAGE LINKS */
 .navbar-light .navbar-nav .nav-link {
     color: #ffdc85;
+    
+}
+
+.navbar-brand {
+    font-size: 3rem !important;
 }
 
 .form-control {
@@ -98,20 +145,14 @@ a.nav-link {
     border-color: #005082;
 }
 
-.container {
-    margin-top: 1%;
-    text-align: center;
-    margin-bottom: 2%;
-    padding: 1%;
-    background-color: #f7f7f7;
-    /* color: #f2f2f2; */
-}
 
-.container p {
+
+p {
     font-weight: bold;
     color: #333333;
-    font-size: 115%;
+    font-size: 1.5rem;
 }
+
 
  /* HEADERS AND SUBHEADERS */
 h2 {
@@ -129,6 +170,7 @@ h3 {
 
 h5 {
     color: #e19285;
+    font-size: 2.0rem;
 }
 
 #autoTitle {
