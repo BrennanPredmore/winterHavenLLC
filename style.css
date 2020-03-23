@@ -1,88 +1,107 @@
 body {
-    font-family: Copernicus-Roman;
+    font-family: source Sans pro;
     background-color: #f7f7f7; 
 }
 
 /* INDEX MAIN DIVS & BACKGROUND */
 
+/* OUR MISSION DIV */
 .container {
-    margin-top: 1%;
     text-align: center;
-    margin-bottom: 2%;
     padding: 1%;
-    background-color: #f7f7f7;
+    background-color: #ffdc85;
     /* color: #f2f2f2; */
 }
-
 #ourMission {
-    background-color: #f7f7f7;
-    border: 10px ridge #ffdc85;
+    background-color: #ffdc85;
 }
-
+#ourMissionHeader {
+    color: #005082b5;
+}
 #skyline {
    width: 100%;
    height: 50%;
 }
 
+
+/* QUANTILES DIV */
 #quantilesAnalytics {
-    background-color: #c7c7c7;
-    border: 10px ridge #005082b5;
+    background-color: #005082b5;
     text-align: center;
-    background-color: ;
     padding: 1%;
     font-weight: bold;
-    color: #333333;
+    color: #f7f7f7;
     font-size: 115%;
-    
+}
+#quantilesHeader {
+    color: #f7f7f7;
+}
+#quantilesSubHeader {
+    color: #f7f7f7;
+}
+#quantilesP {
+    color: #f7f7f7;
 }
 
+/* AUTOMATED HEDGE DIV */
 #automatedHedging {
-    background-color: #005082b5;
+    background-color: #ffdc85;
     color: #f7f7f7;
     text-align: center;
-    margin-bottom: 2%;
     padding: 1%;
-    border: 10px ridge #333;
+
     
 }
-
 ::after, ::before {
     box-sizing: none;
 }
 
+
 /* LIFESTYLE DIV */
+#lifeCycle {
+    background-color: #005082b5;
+    width: auto;
+}
 #lifeCycleHeader {
     text-align: center;
+    color: #f7f7f7;
 }
-
 #lifeCycleSubHeader {
     text-align: center;
-    color: #666666;
+    color: #f7f7f7;
 }
-
 #lifeCycleP {
     text-align: center;
     font-weight: bold;
+    color: #f7f7f7;
 }
-
 #lifeCycleChallenge {
     float: left;
 }
-
 #lifeCycleSolution {
     float: right;
 }
+#lifeCycleText {
+    color: #f7f7f7;
+    text-align: center;
+}
+
+
+
 
 /* LIVE MARKET DIV */
 #liveMarket {
-    background-color: #005082b5;
-    color: #f7f7f7;
+    background-color: #ffdc85;
     text-align: center;
     margin-bottom: 2%;
     padding: 1%;
-    border: 10px ridge #333;
     width: 100%;
 }
+#livemarketText {
+    color: #333;
+}
+
+
 
 /* NAV BAR STYLING */
 /* MAIN NAVBAR CLASS  */
@@ -169,12 +188,12 @@ h3 {
 }
 
 h5 {
-    color: #e19285;
+    color: #005082b5;
     font-size: 2.0rem;
 }
 
 #autoTitle {
-    color: #e19285;
+    color: #005082b5;
 }
 
 /* ABOUT US CARDS */
